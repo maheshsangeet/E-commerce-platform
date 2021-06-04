@@ -3,17 +3,23 @@ import Footer from './component/Footer';
 import Header from './component/Header';
 import HomeScreen from './component/HomeScreen';
 import "./bootstrap.min.css"
+import {BrowserRouter as Router,Route} from "react-router-dom";
+import Product from './component/Product';
+
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <main>
-        <HomeScreen />
-      </main>
-      <Footer />
+    <Router>
+      <div className="App">
+        <Header />
+        <main>
+          <Route exact path="/" component={HomeScreen} />
+          <Route path="/products/:id" component={Product} />
+        </main>
+        <Footer />
 
-    </div>
+      </div>
+    </Router>
   );
 }
 

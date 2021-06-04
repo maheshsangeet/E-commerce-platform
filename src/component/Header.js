@@ -10,9 +10,9 @@ function Header() {
                     <Navbar.Brand href="#home">WAW</Navbar.Brand>
                     <Nav className="ml-auto">
                     <Nav.Link href="#home">
-                        <i class="fa fa-shopping-cart"></i> Cart</Nav.Link>
+                        <i class="fas fa-shopping-cart"></i> Cart</Nav.Link>
                     <Nav.Link href="#features">
-                        <i className="fa fa-user"></i>Login</Nav.Link>
+                        <i class="fas fa-user"></i>Login</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
