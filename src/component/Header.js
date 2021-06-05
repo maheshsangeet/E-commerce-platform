@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar,Nav,Container } from 'react-bootstrap'
+import { FaShoppingCart, FaUser } from 'react-icons/fa';   
 
 
 function Header() {
@@ -9,10 +10,12 @@ function Header() {
                 <Container>
                     <Navbar.Brand href="#home">WAW</Navbar.Brand>
                     <Nav className="ml-auto">
-                    <Nav.Link href="#home">
-                        <i class="fas fa-shopping-cart"></i> Cart</Nav.Link>
-                    <Nav.Link href="#features">
-                        <i class="fas fa-user"></i>Login</Nav.Link>
+                    <Nav.Link href="#cart">
+                        <FaShoppingCart />Cart
+                    </Nav.Link>
+                    <Nav.Link href="#login">
+                        <FaUser />Login
+                    </Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
