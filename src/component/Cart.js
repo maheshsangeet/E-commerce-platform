@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, ListGroup, Row, Image, Form, Button, Card } from "react-bootstrap";
+import { FaTrashAlt } from 'react-icons/fa';
 
 const Cart = () => {
     return (
@@ -26,7 +27,7 @@ const Cart = () => {
                                     </Col>
                                     <Col md={2}>
                                         <Button type="button" variant="light">
-                                            <i className="fa fa-trash"></i>
+                                            <FaTrashAlt />
                                         </Button>
                                     </Col>
                                 </Row>

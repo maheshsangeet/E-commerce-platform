@@ -25,7 +25,7 @@ const products = [
     },
     {
         _id: 3,
-        name:"Canon PowerShot SX540HS 20.3MP Digital Camera",
+        name:"Canon PowerShot Digital Camera",
         image:"/images/royal3.jpg",
         description:"Sensor: APS-C CMOS sensor with 20.3 MP (high resolution for large prints and image cropping)",
         brand:"canon",
@@ -43,7 +43,7 @@ const products = [
         brand:"Zebronics ",
         category:"Electronics",
         price:10.26,
-        countInStock:11,
+        countInStock:0,
         rating:"152 global ratings",
         numReviews:"4.0 out of 5"
     },

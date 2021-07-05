@@ -1,4 +1,3 @@
-import './App.css';
 import Footer from './component/Footer';
 import Header from './component/Header';
 import HomeScreen from './component/HomeScreen';

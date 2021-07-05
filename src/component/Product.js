@@ -26,7 +26,7 @@ const Product = (props) => {
                         <Image src={product.image} alt={product.name} fluid />
                     </Col>
                     <Col md={3}>
-                        <ListGroup variant="flusj">
+                        <ListGroup variant="flush">
                             <ListGroup.Item>
                                 <h3>{product.name}</h3>
                             </ListGroup.Item>
