@@ -17,6 +17,7 @@ function App() {
           <Route path="/products/:id" component={Product} />
           <Route path="/cart" component={Cart} />
         </main>
+        <br/>
         <Footer />
 
       </div>

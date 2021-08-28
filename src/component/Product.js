@@ -23,7 +23,7 @@ const Product = (props) => {
                 </Link>
                 <Row>
                     <Col md={6}>
-                        <Image src={product.image} alt={product.name} fluid />
+                        <Image src={product.image} alt={product.name} fluid  style={{padding:'20px',height:'350px',boxShadow:'inset 1px 1px 3px  gray'}}/>
                     </Col>
                     <Col md={3}>
                         <ListGroup variant="flush">
@@ -79,7 +79,6 @@ const Product = (props) => {
                                 )}
                                 <ListGroup.Item>
                                     <Button 
-                                        class="btn-block" 
                                         type="button"  
                                         disabled={product.countInStock===0}
                                     >

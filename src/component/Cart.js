@@ -12,7 +12,7 @@ const Cart = () => {
                             <ListGroup.Item>
                                 <Row>
                                     <Col md={2}>
-                                        <Image src="" alt="image" fluid rounded />
+                                        <Image src="" alt="image" fluid rounded style={{padding:'20px',height:'200px',boxShadow:'inset 1px 1px 3px  gray'}}/>
                                     </Col>
                                     <Col md={3}>
                                         <p>sony name</p>

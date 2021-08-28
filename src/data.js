@@ -2,7 +2,7 @@ const products = [
     {
         _id: 1,
         name:"Apple AirPods Pro",
-        image:"/images/royal1.jpg",
+        image:"/images/airpods.png",
         description:"The wireless charging case delivers more than 24 hours of battery life",
         brand:"Apple",
         category:"Electronics",
@@ -14,7 +14,7 @@ const products = [
     {
         _id: 2,
         name:"Apple iPhone 12 Mini (128GB)",
-        image:"/images/royal2.jpg",
+        image:"/images/canon-camera.png",
         description:"5.4-inch (13.7 cm diagonal) Super Retina XDR display Ceramic Shield, tougher than any smartphone glass",
         brand:"apple",
         category:"Electronics",
@@ -26,7 +26,7 @@ const products = [
     {
         _id: 3,
         name:"Canon PowerShot Digital Camera",
-        image:"/images/royal3.jpg",
+        image:"/images/head-band.png",
         description:"Sensor: APS-C CMOS sensor with 20.3 MP (high resolution for large prints and image cropping)",
         brand:"canon",
         category:"Electronics",
@@ -38,7 +38,7 @@ const products = [
     {
         _id: 4,
         name:"Zebronics Wired Keyboard",
-        image:"/images/royal4.jpg",
+        image:"/images/iphone-12.png",
         description:"Standard keyboard Rupee key, Comfortable ,Silent Durable keys",
         brand:"Zebronics ",
         category:"Electronics",
@@ -50,7 +50,7 @@ const products = [
     {
         _id: 5,
         name:"BoAt Bassheads Headphones(Carbon Black)",
-        image:"/images/royal1.jpg",
+        image:"/images/keyboard.png",
         description:"Compatibility and Connectivity: Compatible with Android/iOS and connectivity via 3.5mm AUX cable",
         brand:"Boat",
         category:"Electronics",
@@ -62,7 +62,7 @@ const products = [
     {
         _id: 6,
         name:"INTEX 10000mAH Li-Polymer Power Bank",
-        image:"/images/royal2.jpg",
+        image:"/images/laptop.png",
         description:"10000mAh Li-Polymer Battery,Fast Charging, 12 Months Domestic warranty",
         brand:"Intex",
         category:"Electronics",
@@ -74,7 +74,7 @@ const products = [
     {
         _id: 7,
         name:"HP 14 (2021) Thin & Light Intel laptop",
-        image:"/images/royal3.jpg",
+        image:"/images/power-bank.png",
         description:"Display: 14-Inch (35.6 cm) HD anti-glare micro-edge, 250 nits, 45% NTSC (1366 x 768",
         brand:"HP",
         category:"Electronics",
@@ -86,7 +86,7 @@ const products = [
     {
         _id: 8,
         name:"Toshiba 80 cm (32 inches) smart tv",
-        image:"/images/royal4.jpg",
+        image:"/images/tv.png",
         description:"Smart TV Features: VIDAA OS, Designed specifically for Televisions: Fast, Simple & Easy, Customizable",
         brand:"Toshiba",
         category:"Electronics",
